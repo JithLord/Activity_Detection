@@ -8,12 +8,17 @@ Click runtime and change runtime type to GPU or TPU for faster processing
 For loading images from your drive:
 ```
   from google.colab import drive
-  drive.mount('/content/drive') #Add the correct location starts with r"/content/drive/My Drive/"
+  drive.mount('/content/drive')
 ```
-or 
+or you could do this and also specify the exact folder where you want it to take from: 
+
+
 ![image](https://user-images.githubusercontent.com/45201620/100517127-92afd700-31ae-11eb-9bf1-8ecf00e0f08b.png)
+
+Then select this icon:
 ![image](https://user-images.githubusercontent.com/45201620/100517194-06ea7a80-31af-11eb-9353-f296f07643ea.png)
 ![image](https://user-images.githubusercontent.com/45201620/100517198-0f42b580-31af-11eb-942e-68468d3aa327.png)
+Then copy the filepath
 ![image](https://user-images.githubusercontent.com/45201620/100517241-3e592700-31af-11eb-93f7-fc90a6e2a80b.png)
 
 
