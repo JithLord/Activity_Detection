@@ -4,8 +4,12 @@
 You can run the program on colab.research.google.com
 THe code is attached here in .ipynb format, just copy the code to the colab website.
 Click runtime and change runtime type to GPU or TPU for faster processing
+## Super Important
+For loading images from your drive:
 
-Parameters You need to change either sequentially or parallely:
+
+
+## Parameters You need to change either sequentially or parallely:
 1.      img_height it should always be less than 500 and greater than 150
 1.      img_width it should always be less than 500 and greater than 150
 1.      batch_size
