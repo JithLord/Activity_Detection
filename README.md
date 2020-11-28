@@ -2,6 +2,7 @@
 
 
 You can run the program on colab.research.google.com
+THe code is attached here in .ipynb format, just copy the code to the colab website.
 Click runtime and change runtime type to GPU or TPU for faster processing
 
 Parameters You need to change either sequentially or parallely:
