@@ -6,7 +6,11 @@ THe code is attached here in .ipynb format, just copy the code to the colab webs
 Click runtime and change runtime type to GPU or TPU for faster processing
 ## Super Important
 For loading images from your drive:
-
+```
+  from google.colab import drive
+  drive.mount('/content/drive') #Add the correct location starts with r"/content/drive/My Drive/"
+```
+or 
 
 
 ## Parameters You need to change either sequentially or parallely:
