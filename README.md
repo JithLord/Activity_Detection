@@ -55,3 +55,11 @@ Then copy the filepath
 1.      https://www.tensorflow.org/tutorials/images/transfer_learning
 1.      https://www.tensorflow.org/api_docs/python/tf/keras/losses
 1.      https://www.tensorflow.org/api_docs/python/tf/keras/layers
+
+## Important:
+The model will automatically stop WITHOUT ERRORS automatically after the training and validation accuracies are above 0.8 
+If it does stop automatically save the model with 
+```
+  model.save("model1.h5")
+```
+The place where you mounted the google drive will have the "model1.h5" file, send that to me with a plot of accuracy and loss plots
