@@ -56,10 +56,25 @@ Then copy the filepath
 1.      https://www.tensorflow.org/api_docs/python/tf/keras/losses
 1.      https://www.tensorflow.org/api_docs/python/tf/keras/layers
 
+
+
+## How your result should look like
+##### The place where you mounted the google drive will have the "model1.h5" file, send that to me with a plot of accuracy and loss plots
+![image](https://user-images.githubusercontent.com/45201620/100517523-0a7f0100-31b1-11eb-80d2-b36984e141ad.png)
+![image](https://user-images.githubusercontent.com/45201620/100517529-179bf000-31b1-11eb-823b-25ae40c4c5e4.png)
+![image](https://user-images.githubusercontent.com/45201620/100517546-30a4a100-31b1-11eb-9c25-4e6cd52a0527.png)
+![image](https://user-images.githubusercontent.com/45201620/100517568-6b0e3e00-31b1-11eb-95c4-17f5c5bcdc50.png)
+![image](https://user-images.githubusercontent.com/45201620/100517576-76616980-31b1-11eb-989e-f1a51a4a574a.png)
+
+##### Should'nt have this like sudden increase or decrease
+![image](https://user-images.githubusercontent.com/45201620/100517536-271b3900-31b1-11eb-8312-668ddb48f885.png)
+##### This could be a sign of overfitting:
+![image](https://user-images.githubusercontent.com/45201620/100517559-5631aa80-31b1-11eb-92e8-13704886126d.png)
+
+
 ## Important:
 The model will automatically stop WITHOUT ERRORS automatically after the training and validation accuracies are above 0.8 
 If it does stop automatically save the model with 
 ```
   model.save("model1.h5")
 ```
-The place where you mounted the google drive will have the "model1.h5" file, send that to me with a plot of accuracy and loss plots
