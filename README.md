@@ -11,6 +11,11 @@ For loading images from your drive:
   drive.mount('/content/drive') #Add the correct location starts with r"/content/drive/My Drive/"
 ```
 or 
+![image](https://user-images.githubusercontent.com/45201620/100517127-92afd700-31ae-11eb-9bf1-8ecf00e0f08b.png)
+![image](https://user-images.githubusercontent.com/45201620/100517194-06ea7a80-31af-11eb-9353-f296f07643ea.png)
+![image](https://user-images.githubusercontent.com/45201620/100517198-0f42b580-31af-11eb-942e-68468d3aa327.png)
+![image](https://user-images.githubusercontent.com/45201620/100517241-3e592700-31af-11eb-93f7-fc90a6e2a80b.png)
+
 
 
 ## Parameters You need to change either sequentially or parallely:
