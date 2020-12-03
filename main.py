@@ -29,12 +29,11 @@ from tensorflow.keras.optimizers import RMSprop
 
 # Flatten the output layer to 1 dimension
 x = layers.Flatten()(last_output)
-# Add a fully connected layer with 1,024 hidden units and ReLU activation
 x = layers.Dense(1024, activation='selu')(x)
 x = layers.Dropout(0.1)(x)                  
 x = layers.Dense(512, activation='selu')(x) 
 x = layers.Dropout(0.1)(x)                  
-# Add a final sigmoid layer for classification
+# Final Softmax layer for classification
 x = layers.Dense(6, activation='softmax')(x)           
 
 model = Model( pre_trained_model.input, x) 
@@ -67,7 +66,7 @@ train_datagen = ImageDataGenerator(rescale = 1./255,
 # Flow training images in batches of 20 using train_datagen generator
 train_generator = train_datagen.flow_from_directory(train_dir,
                                                     batch_size = 20,
-                                                    # shuffle="True",
+                                                    shuffle="True",
                                                     class_mode = 'categorical', 
                                                     target_size = (150, 150))     
 
@@ -105,10 +104,15 @@ epochs = range(len(acc))
 
 model.save("activity4.h5")
 plt.plot(epochs, acc, 'r', label='Training accuracy')
-# plt.plot(epochs, val_acc, 'b', label='Validation accuracy')
-plt.title('Training and validation accuracy')
+plt.title('Training Accuracy')
 plt.legend(loc=0)
 plt.figure()
+plt.show()
 
+model.save("activity4.h5")
+plt.plot(epochs, loss, 'r', label='Training Loss')
+plt.title('Training Loss')
+plt.legend(loc=0)
+plt.figure()
 plt.show()
 
