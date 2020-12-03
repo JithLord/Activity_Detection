@@ -4,6 +4,9 @@
 You can run the program on colab.research.google.com
 THe code is attached here in .ipynb format, just copy the code to the colab website.
 Click runtime and change runtime type to GPU or TPU for faster processing
+## Download the .h5 model
+https://we.tl/t-HBscIiHwov
+
 ## Super Important
 For loading images from your drive:
 ```
