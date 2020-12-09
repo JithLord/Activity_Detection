@@ -44,4 +44,4 @@ Then copy the filepath
 1.      https://www.tensorflow.org/api_docs/python/tf/keras/losses
 1.      https://www.tensorflow.org/api_docs/python/tf/keras/layers
 
-## The live classifier can be used to classify images from a webcam or any camera.
+## The LiveClassifier.py file can be used to classify images from a webcam or any camera.
