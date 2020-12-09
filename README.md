@@ -1,14 +1,22 @@
-# Activity_Detection_Python
+# Activity_Detection
+This repository uses tensorflow to train on 4268 Non copyrighted images to classify into 6 different categories Sitting, Standing, Walking, Walking on Stairs and Control.
 
+## IMPORTANT
+Feel free to use the code, make sure you give us credits everytime you use the code.
+## Dataset
+Dataset divided into 6 categories of 150x150x3 ie the image of size 150x150 and a 3 channel(RGB). Category Control used to prevent Random images to be classified into any of the remaining 5 categories. Use of Augmentation to have more number of images to train the model. The dataset involved humans of various backgrounds, ages, skin tone, time of day.
 
-You can run the program on colab.research.google.com
+## Code
+Using InceptionV3 transfer learning model, along with mixed7 layer, 1024 neuron Selu with activation, 0.1 Dropout, 512 neuron with Selu activation, 0.1 dropout and 6 Neuron with softmax Activation.
+Use of RMSprop optimizer with learning rate 0.0001 and loss function as categorical crossentropy.
+
+## Important
+You can run this program on colab.research.google.com with a TPU or GPU for faster processing.
 THe code is attached here in .ipynb format, just copy the code to the colab website.
 Click runtime and change runtime type to GPU or TPU for faster processing
+
 ## Download the .h5 model
 https://we.tl/t-HBscIiHwov
-
-## Super Important
-Please feel free to use the code, Just give us credits when you use it in any way.
 
 ## For loading images from your drive:
 ```
