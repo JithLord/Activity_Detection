@@ -44,7 +44,7 @@ model.compile(optimizer = RMSprop(lr=0.0001),
 
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
-train_dir = r"/content/drive/MyDrive/DatasetNew"
+train_dir = r"/content/drive/MyDrive/DatasetNew/DatasetNew"
 validation_dir = r"/content/drive/MyDrive/Validation"
 
 # Add our data-augmentation parameters to ImageDataGenerator
@@ -83,14 +83,14 @@ from PIL import ImageFile
 ImageFile.LOAD_TRUNCATED_IMAGES = True
 class myCallback(tf.keras.callbacks.Callback):
       def on_epoch_end(self, epoch, logs={}):
-          if (logs.get('acc')>0.82):
+          if (logs.get('acc')>0.85):
             self.model.stop_training = True
 callbacks=myCallback()
 history = model.fit(
             train_generator,
             validation_data = validation_generator,
             steps_per_epoch = 20,
-            epochs = 100,
+            epochs = 500,
             validation_steps = 20,
             verbose = 1,callbacks=[callbacks])
 model.save("activity34.h5")
