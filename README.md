@@ -1,5 +1,5 @@
 # Activity_Detection
-This repository uses tensorflow to train on 4268 Non copyrighted images obtained after scraping to classify live using the camera into 6 different categories Sitting, Standing, Walking, Walking on Stairs and Control.
+This repository uses tensorflow to train on 4268 Non copyrighted images obtained after scraping duckduckgo searches to classify live using the camera into 6 different categories Sitting, Standing, Walking, Walking on Stairs and Control.
 
 ## IMPORTANT
 Feel free to use the code, make sure you give us credits everytime you use the code.
