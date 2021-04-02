@@ -11,6 +11,7 @@ Dataset divided into 6 categories of 150x150x3 ie the image of size 150x150 and 
 Using InceptionV3 transfer learning model, along with mixed7 layer, 1024 neuron Selu with activation, 0.1 Dropout, 512 neuron with Selu activation, 0.1 dropout and 6 Neuron with softmax Activation.
 Use of RMSprop optimizer with learning rate 0.0001 and loss function as categorical crossentropy.
 </br >
+</br >
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="https://user-images.githubusercontent.com/45201620/113389135-1f60e080-93ad-11eb-916b-c88b206104ee.png" width="60%"></img>
 </br >
 </br >
