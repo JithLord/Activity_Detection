@@ -4,14 +4,14 @@ This repository uses tensorflow to train on 4268 Non copyrighted images obtained
 ## IMPORTANT
 Feel free to use the code, make sure you give us credits everytime you use the code.
 ## Dataset
-Dataset divided into 6 categories of 150x150x3 ie the image of size 150x150 and a 3 channel(RGB). Category Control used to prevent Random images to be classified into any of the remaining 5 categories. Use of Augmentation to have more number of images to train the model. The dataset involved humans of various backgrounds, ages, skin tone, time of day.
-![image](https://user-images.githubusercontent.com/45201620/113389040-fa6c6d80-93ac-11eb-974e-ad3112eba8c3.png)
+Dataset divided into 6 categories of 150x150x3 ie the image of size 150x150 and a 3 channel(RGB). Category Control used to prevent Random images to be classified into any of the remaining 5 categories. Use of Augmentation to have more number of images to train the model. The dataset involved humans of various backgrounds, ages, skin tone, time of day. </br >
+<img src="https://user-images.githubusercontent.com/45201620/113389040-fa6c6d80-93ac-11eb-974e-ad3112eba8c3.png" width="60%"></img>
 
 ## Code
 Using InceptionV3 transfer learning model, along with mixed7 layer, 1024 neuron Selu with activation, 0.1 Dropout, 512 neuron with Selu activation, 0.1 dropout and 6 Neuron with softmax Activation.
 Use of RMSprop optimizer with learning rate 0.0001 and loss function as categorical crossentropy.
 </br >
-<img src="https://user-images.githubusercontent.com/45201620/113389135-1f60e080-93ad-11eb-916b-c88b206104ee.png" width="60%"></img>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="https://user-images.githubusercontent.com/45201620/113389135-1f60e080-93ad-11eb-916b-c88b206104ee.png" width="60%"></img>
 </br >
 </br >
 
