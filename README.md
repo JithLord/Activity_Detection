@@ -5,10 +5,15 @@ This repository uses tensorflow to train on 4268 Non copyrighted images obtained
 Feel free to use the code, make sure you give us credits everytime you use the code.
 ## Dataset
 Dataset divided into 6 categories of 150x150x3 ie the image of size 150x150 and a 3 channel(RGB). Category Control used to prevent Random images to be classified into any of the remaining 5 categories. Use of Augmentation to have more number of images to train the model. The dataset involved humans of various backgrounds, ages, skin tone, time of day.
+![image](https://user-images.githubusercontent.com/45201620/113389040-fa6c6d80-93ac-11eb-974e-ad3112eba8c3.png)
 
 ## Code
 Using InceptionV3 transfer learning model, along with mixed7 layer, 1024 neuron Selu with activation, 0.1 Dropout, 512 neuron with Selu activation, 0.1 dropout and 6 Neuron with softmax Activation.
 Use of RMSprop optimizer with learning rate 0.0001 and loss function as categorical crossentropy.
+![image](https://user-images.githubusercontent.com/45201620/113389135-1f60e080-93ad-11eb-916b-c88b206104ee.png)
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Block Diagram of the Project 
+<img src="https://user-images.githubusercontent.com/45201620/113389310-736bc500-93ad-11eb-80a7-88f476845f52.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/45201620/113389339-7f578700-93ad-11eb-9f15-39aedcc44f16.png" width="45%"></img> 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Training Accuracy  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Training Loss
 
 ## Important
 You can run this program on colab.research.google.com with a TPU or GPU for faster processing.
