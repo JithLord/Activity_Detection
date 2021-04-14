@@ -7,8 +7,8 @@ Feel free to use the code, make sure you give us credits everytime you use the c
 Dataset divided into 6 categories of 150x150x3 ie the image of size 150x150 and a 3 channel(RGB). Category Control used to prevent Random images to be classified into any of the remaining 5 categories. Use of Augmentation to have more number of images to train the model. The dataset involved humans of various backgrounds, ages, skin tone, time of day. </br ></br >
  &nbsp; &nbsp;   &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="https://user-images.githubusercontent.com/45201620/113389040-fa6c6d80-93ac-11eb-974e-ad3112eba8c3.png" width="60%"></img>
 
-*My dataset is now available to download for free on kaggle www.kaggle.com/jithinnambiarj/human-activity-recognition-dataset. 
-**Please do give me credits everytime you use it.
+*My dataset is now available to download for free on kaggle www.kaggle.com/jithinnambiarj/human-activity-recognition-dataset.*
+**Please do give me credits everytime you use it.**
 
 
 ## Code
