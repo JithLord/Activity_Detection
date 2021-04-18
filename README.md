@@ -19,11 +19,10 @@ Use of RMSprop optimizer with learning rate 0.0001 and loss function as categori
 </br >
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45201620/113389135-1f60e080-93ad-11eb-916b-c88b206104ee.png" width="60%"></img> </p>
-</br >
 
 <p align="center">
- Block Diagram of the Project </br ></p>
-
+ Block Diagram of the Project </p>
+</br ></br >
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45201620/113389310-736bc500-93ad-11eb-80a7-88f476845f52.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/45201620/113389339-7f578700-93ad-11eb-9f15-39aedcc44f16.png" width="45%"></img> 
 </br ></p>
