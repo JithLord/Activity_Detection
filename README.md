@@ -1,3 +1,5 @@
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+
 # Activity_Detection
 This repository uses tensorflow to train on 4268 Non copyrighted images obtained after scraping duckduckgo searches to classify live using the camera into 6 different categories Sitting, Standing, Walking, Walking on Stairs and Control.
 
