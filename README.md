@@ -1,5 +1,5 @@
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://github.com/JithLord/Activity_Detection/blob/main/ezgif-2-bdba792399.gif" />
 
 
 # Activity_Detection
