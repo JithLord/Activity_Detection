@@ -1,5 +1,5 @@
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-<video> <source src="https://cdnl.iconscout.com/lottie/premium/thumb/teamwork-3574987-2991623.mp4" type="video/mp4"> Your browser does not support the video tag </video>
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
 
 
 # Activity_Detection
