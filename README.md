@@ -14,7 +14,7 @@ Dataset divided into 6 categories of 150x150x3 ie the image of size 150x150 and 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45201620/113389040-fa6c6d80-93ac-11eb-974e-ad3112eba8c3.png" width="60%"></img>
 </p>
-*My dataset is now available to download for free on kaggle https://www.kaggle.com/jithinnambiarj/human-activity-detection-dataset?rvi=1.* </br>
+*My dataset is now available to download for free on kaggle https://www.kaggle.com/jithinnambiarj/human-activity-detection-dataset?rvi=1 .* </br>
 **Please do give me credits everytime you use it.**
 
 
